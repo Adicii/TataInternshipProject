@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Daily New Employees Trend";
+}
+
+<h2>Daily New Employees - Last 30 Days</h2>
+
+<div style="margin-bottom: 20px;">
+    <label><b>Department:</b></label>
+    <select id="departmentFilter" class="form-control" style="display:inline-block; width:auto;"></select>
+
+    <label><b>Role:</b></label>
+    <select id="roleFilter" class="form-control" style="display:inline-block; width:auto;"></select>
+
+    <label><b>Location:</b></label>
+    <select id="locationFilter" class="form-control" style="display:inline-block; width:auto;"></select>
+</div>
+
+<canvas id="employeeChart" width="1000" height="400"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    let chart;
+
+    function loadFilters() {
+        fetch('/Reports/GetEmployeeFilters')
+            .then(res => res.json())
+            .then(data => {
+                populateDropdown('departmentFilter', data.Departments);
+                populateDropdown('roleFilter', data.Roles);
+                populateDropdown('locationFilter', data.Locations);
+            });
+    }
+
+    function populateDropdown(id, values) {
+        const dropdown = document.getElementById(id);
+        dropdown.innerHTML = `<option value="">All</option>`;
+        values.forEach(val => {
+            dropdown.innerHTML += `<option value="${val}">${val}</option>`;
+        });
+    }
+
+    function loadChart() {
+        const department = document.getElementById('departmentFilter').value;
+        const role = document.getElementById('roleFilter').value;
+        const location = document.getElementById('locationFilter').value;
+
+        const params = new URLSearchParams({ department, role, location });
+
+        fetch('/Reports/GetDailyEmployeeTrend?' + params.toString())
+            .then(res => res.json())
+            .then(data => {
+                const labels = data.map(d => d.Date);
+                const values = data.map(d => d.Count);
+
+                if (chart) chart.destroy();
+
+                chart = new Chart(document.getElementById('employeeChart'), {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'New Employees',
+                            data: values,
+                            borderColor: 'blue',
+                            backgroundColor: 'rgba(0,0,255,0.1)',
+                            fill: true,
+                            tension: 0.3
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            x: { title: { display: true, text: 'Date' } },
+                            y: { title: { display: true, text: 'Count' }, beginAtZero: true }
+                        }
+                    }
+                });
+            });
+    }
+
+    function attachFilterEvents() {
+        ['departmentFilter', 'roleFilter', 'locationFilter'].forEach(id => {
+            document.getElementById(id).addEventListener('change', loadChart);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        loadFilters();
+        loadChart();
+        attachFilterEvents();
+    });
+</script>
+
