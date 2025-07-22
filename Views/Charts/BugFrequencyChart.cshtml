@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Bug Frequency Chart";
+}
+
+<h2>Bug Frequency and Metrics Charts</h2>
+
+<div id="bugChart" style="width:600px;height:400px;"></div>
+
+<h3>LOC vs BUG Count</h3>
+<div id="chart1" style="width:600px;height:400px;"></div>
+
+<h3>RFC vs CBO</h3>
+<div id="chart2" style="width:600px;height:400px;"></div>
+
+<h3>MAX_CC vs AVG_CC</h3>
+<div id="chart3" style="width:600px;height:400px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script>
+    fetch('@Url.Action("GetBugFrequencyData", "Charts")')
+        .then(response => response.json())
+        .then(data => {
+            const labels = data.map(d => d.Category);
+            const values = data.map(d => d.Count);
+
+            const plotData = [{
+                type: 'pie',
+                labels: labels,
+                values: values,
+                textinfo: 'label+percent',
+                insidetextorientation: 'radial'
+            }];
+
+            const layout = {
+                title: 'Bug vs Clean Classes'
+            };
+
+            Plotly.newPlot('bugChart', plotData, layout);
+        })
+        .catch(err => console.error("Bug Pie Chart Error:", err));
+
+    fetch('@Url.Action("ChartData1", "Charts")')
+        .then(response => response.json())
+        .then(data => {
+            const trace1 = {
+                x: data.loc,
+                y: data.bug,
+                type: 'bar',
+                name: 'LOC vs BUG'
+            };
+            Plotly.newPlot('chart1', [trace1], {
+                title: 'LOC vs BUG',
+                xaxis: { title: 'Lines of Code (LOC)' },
+                yaxis: { title: 'Bug Count' }
+            });
+        })
+        .catch(err => console.error("Chart 1 Load Error:", err));
+
+    fetch('@Url.Action("ChartData2", "Charts")')
+        .then(response => response.json())
+        .then(data => {
+            const trace2 = {
+                x: data.rfc,
+                y: data.cbo,
+                mode: 'markers',
+                type: 'scatter',
+                name: 'RFC vs CBO',
+                marker: { size: 8 }
+            };
+            Plotly.newPlot('chart2', [trace2], {
+                title: 'RFC vs CBO',
+                xaxis: { title: 'RFC' },
+                yaxis: { title: 'CBO' }
+            });
+        })
+        .catch(err => console.error("Chart 2 Load Error:", err));
+
+    fetch('@Url.Action("ChartData3", "Charts")')
+        .then(response => response.json())
+        .then(data => {
+            const trace3a = {
+                x: Array.from({ length: data.maxCc.length }, (_, i) => `Class ${i + 1}`),
+                y: data.maxCc,
+                type: 'bar',
+                name: 'MAX_CC'
+            };
+            const trace3b = {
+                x: Array.from({ length: data.avgCc.length }, (_, i) => `Class ${i + 1}`),
+                y: data.avgCc,
+                type: 'bar',
+                name: 'AVG_CC'
+            };
+            Plotly.newPlot('chart3', [trace3a, trace3b], {
+                title: 'MAX_CC vs AVG_CC',
+                xaxis: { title: 'Class Index' },
+                yaxis: { title: 'Cyclomatic Complexity' },
+                barmode: 'group'
+            });
+        })
+        .catch(err => console.error("Chart 3 Load Error:", err));
+</script>

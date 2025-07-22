@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Bug Frequency Pie Chart";
+    var labels = ViewBag.Labels as string[];
+    var data = ViewBag.Data as int[];
+}
+
+<h2>Bug Frequency</h2>
+<div id="bugChart"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    var data = [{
+        values: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(data)),
+        labels: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(labels)),
+        type: 'pie'
+    }];
+
+    Plotly.newPlot('bugChart', data);
+</script>
+

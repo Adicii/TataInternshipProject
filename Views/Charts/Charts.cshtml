@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Software Metrics Charts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>LOC vs BUG</h2>
+<div id="chart1"></div>
+
+<h2>RFC vs CBO</h2>
+<div id="chart2"></div>
+
+<h2>MAX_CC vs AVG_CC</h2>
+<div id="chart3"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    fetch('/Home/ChartData1')
+        .then(res => res.json())
+        .then(data => {
+            var trace = {
+                x: data.loc,
+                y: data.bug,
+                type: 'scatter',
+                mode: 'markers+lines',
+                marker: { color: 'blue' }
+            };
+            Plotly.newPlot('chart1', [trace], {
+                title: 'LOC vs BUG',
+                xaxis: { title: 'LOC' },
+                yaxis: { title: 'BUG' }
+            });
+        });
+
+    fetch('/Home/ChartData2')
+        .then(res => res.json())
+        .then(data => {
+            var trace = {
+                x: data.rfc,
+                y: data.cbo,
+                type: 'bar',
+                marker: { color: 'orange' }
+            };
+            Plotly.newPlot('chart2', [trace], {
+                title: 'RFC vs CBO',
+                xaxis: { title: 'RFC' },
+                yaxis: { title: 'CBO' }
+            });
+        });
+
+    fetch('/Home/ChartData3')
+        .then(res => res.json())
+        .then(data => {
+            var trace = {
+                x: data.maxCc,
+                y: data.avgCc,
+                type: 'scatter',
+                mode: 'lines+markers',
+                marker: { color: 'green' }
+            };
+            Plotly.newPlot('chart3', [trace], {
+                title: 'MAX_CC vs AVG_CC',
+                xaxis: { title: 'MAX_CC' },
+                yaxis: { title: 'AVG_CC' }
+            });
+        });
+</script>

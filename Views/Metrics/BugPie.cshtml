@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Bug Frequency Pie Chart";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<h2>Bug Frequency Pie Chart</h2>
+
+<div id="bugChart" style="width:600px;height:400px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script>
+    fetch('/Metrics/BugSummary')
+        .then(response => response.json())
+        .then(data => {
+            const chartData = [{
+                values: [data.bug, data.no_bug],
+                labels: ['Bug', 'No Bug'],
+                type: 'pie'
+            }];
+
+            const layout = {
+                title: 'Bug Frequency in Software Metrics',
+                height: 400,
+                width: 600
+            };
+
+            Plotly.newPlot('bugChart', chartData, layout);
+        })
+        .catch(error => {
+            console.error("Failed to load bug data:", error);
+            document.getElementById("bugChart").innerText = "Failed to load data.";
+        });
+</script>
+

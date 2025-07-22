@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ProductApp.Models.SoftwareMetrics>
+
+<h2>Software Metrics</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>WMC</th>
+        <th>DIT</th>
+        <th>BUG</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.WMC</td>
+            <td>@item.DIT</td>
+            <td>@item.BUG</td>
+        </tr>
+    }
+</table>

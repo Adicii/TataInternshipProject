@@ -26,5 +26,10 @@ namespace ProductApp.Controllers
 
             return View();
         }
+        public ActionResult Charts()
+        {
+            return View();
+        }
+
     }
 }

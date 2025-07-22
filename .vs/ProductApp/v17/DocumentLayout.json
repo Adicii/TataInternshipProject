@@ -3,16 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\ProductApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|c:\\users\\hp\\source\\repos\\productapp\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\views\\charts\\bugfrequencychart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:views\\charts\\bugfrequencychart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|c:\\users\\hp\\source\\repos\\productapp\\controllers\\chartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\chartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\softwaremetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:models\\softwaremetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|c:\\users\\hp\\source\\repos\\productapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|c:\\users\\hp\\source\\repos\\productapp\\views\\charts\\charts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:views\\charts\\charts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\controllers\\softwaremetricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\softwaremetricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\viewmodels\\chartviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:models\\viewmodels\\chartviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\views\\softwaremetrics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:views\\softwaremetrics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\views\\charts\\bugpiechart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:views\\charts\\bugpiechart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\bugfrequencyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:models\\bugfrequencyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\controllers\\metricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\metricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\views\\metrics\\bugpie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:views\\metrics\\bugpie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2898F0EE-0873-4030-BBC7-553CBAD18ECD}|ProductApp.csproj|C:\\Users\\HP\\source\\repos\\ProductApp\\views\\reports\\trends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,20 +106,209 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "Controllers\\ReportsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA7wCEAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "MetricsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\MetricsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MetricsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\MetricsController.cs",
+              "RelativeToolTip": "Controllers\\MetricsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T09:02:58.336Z",
+              "WhenOpened": "2025-07-06T05:00:07.949Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SoftwareMetric.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\SoftwareMetric.cs",
+              "RelativeDocumentMoniker": "Models\\SoftwareMetric.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\SoftwareMetric.cs",
+              "RelativeToolTip": "Models\\SoftwareMetric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T04:57:46.004Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChartsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ChartsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChartsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ChartsController.cs",
+              "RelativeToolTip": "Controllers\\ChartsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T18:41:14.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BugFrequencyChart.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Charts\\BugFrequencyChart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Charts\\BugFrequencyChart.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Charts\\BugFrequencyChart.cshtml*",
+              "RelativeToolTip": "Views\\Charts\\BugFrequencyChart.cshtml*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T18:44:12.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T05:12:24.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\App_Start\\RouteConfig.cs*",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:11:16.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:23:49.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T12:47:22.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Charts.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Charts\\Charts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Charts\\Charts.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Charts\\Charts.cshtml",
+              "RelativeToolTip": "Views\\Charts\\Charts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T12:29:04.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SoftwareMetricsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\SoftwareMetricsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SoftwareMetricsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\SoftwareMetricsController.cs",
+              "RelativeToolTip": "Controllers\\SoftwareMetricsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:14:22.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\SoftwareMetrics\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SoftwareMetrics\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\SoftwareMetrics\\Index.cshtml",
+              "RelativeToolTip": "Views\\SoftwareMetrics\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T18:18:32.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChartViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\ViewModels\\ChartViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\ChartViewModels.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\ViewModels\\ChartViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\ChartViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:17:21.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BugPieChart.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Charts\\BugPieChart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Charts\\BugPieChart.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Charts\\BugPieChart.cshtml",
+              "RelativeToolTip": "Views\\Charts\\BugPieChart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T15:03:09.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BugFrequencyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\BugFrequencyViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\BugFrequencyViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\BugFrequencyViewModel.cs",
+              "RelativeToolTip": "Models\\BugFrequencyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T18:39:37.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BugPie.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Metrics\\BugPie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Metrics\\BugPie.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Metrics\\BugPie.cshtml",
+              "RelativeToolTip": "Views\\Metrics\\BugPie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T06:42:15.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:15:14.63Z"
             },
             {
               "$type": "Bookmark",
@@ -71,19 +316,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBMAAABAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "Controllers\\ReportsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T06:15:14.63Z"
+              "WhenOpened": "2025-06-19T09:02:58.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Models\\Department.cs",
@@ -95,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -107,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
@@ -119,19 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T17:23:49.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Trends.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Reports\\Trends.cshtml",
               "RelativeDocumentMoniker": "Views\\Reports\\Trends.cshtml",
@@ -143,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -155,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -168,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ProductApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
