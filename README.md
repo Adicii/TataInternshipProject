@@ -202,6 +202,17 @@ ProductApp/
 - **Bundle Optimization**: CSS and JS files are bundled and minified
 - **Database Connection Pooling**: Configured in Entity Framework
 
+## 📊 Data Visualizations
+
+We have integrated multiple interactive charts using **Plotly.js** to provide insights into software metrics and bug data:
+
+- **Bug Frequency Pie Chart:** Shows the ratio of buggy vs clean classes.
+- **LOC vs Bug Count Bar Chart:** Compares lines of code to number of bugs.
+- **Bug Density Chart:** Displays average bug count per KLOC per class.
+- **Filtered Charts:** Users can filter charts by Department, Role, and Location for targeted analysis.
+
+These charts are dynamically rendered and fetch data from the server using AJAX endpoints in the `ChartsController`. The dashboard now offers a more data-driven perspective on software quality.
+
 ## 🤝 Contributing
 
 1. Fork the repository
